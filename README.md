@@ -53,6 +53,7 @@ These schemes are repeatedly applied starting from `t_0` and `y_0` until the fin
 Testing:
 
 Unit tests were written for all schemes and sample scenarios for the solvers implementation and can be found in the 'test' folder:
-    - `y' = -y` with `y(0) = 1`
-    - `y' = sin(t)` with `y(0) = 1`
-    - multidimensional vector
+
+- `y' = -y` with `y(0) = 1`
+- `y' = sin(t)` with `y(0) = 1`
+- multidimensional vector
