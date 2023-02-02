@@ -1,4 +1,4 @@
-# Solver Library Project
+# C++ Project - Solver Library for 1st-order ODEs
 
 This repo contains a small solver library for first-order ordinary differential equations (ODEs) of the form
 
