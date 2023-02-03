@@ -46,7 +46,7 @@ A2B can't be used for the first iteration from `t_0` to `t_0+h`, since it requir
 
 These schemes are repeatedly applied starting from `t_0` and `y_0` until the final time `t_f` is reached and the final solution vector `y_f` is obtained.
 
-Testing:
+## Testing:
 
 Unit tests were written for all functions and schemes, with different sample scenarios for the solvers, which can be found in the 'test' folder. E.g.:
 
