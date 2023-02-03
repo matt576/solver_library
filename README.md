@@ -17,20 +17,16 @@ This vector class mimics the concept of a mathematical vector with a given numbe
 - Accessing a specific element by index
 - Printing: print the vector content in a human-readable format
 
-Unit tests were written for the implementation and can be found in the 'test' folder.
-
 ## Functions
 
 - A function that scales the input vector by a fixed constant `a`. The time argument is unused. Mathematically speaking: `f(y,t) = a*y`
 - A function that takes an arbitrary number of other functions alongside a scaling value for each of them. The function returns the sum of all function     values scaled with the factors. Mathematically speaking:
   `f(y,t) = a_1 * f_1(y,t) + a_2 * f_2(y,t) + ...`
 
-Unit tests were written for the implementation and can be found in the 'test' folder.
-
 ## Solvers
 
 The ODEs are solved for a start vector `y_0` at start time `t_0` until a final time `t_f`. The time interval `[t_0,t_f]` is subdivided into a number of time steps of size `h`.
-The following numerical schemes were implemented to solve ODEs:
+The following numerical schemes were implemented:
 
 - explicit Euler (EE):
     ```math
@@ -52,7 +48,7 @@ These schemes are repeatedly applied starting from `t_0` and `y_0` until the fin
 
 Testing:
 
-Unit tests were written for all schemes and sample scenarios for the solvers implementation and can be found in the 'test' folder:
+Unit tests were written for all functions and schemes, with different sample scenarios for the solvers, which can be found in the 'test' folder. E.g.:
 
 - `y' = -y` with `y(0) = 1`
 - `y' = sin(t)` with `y(0) = 1`
