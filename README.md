@@ -46,10 +46,24 @@ A2B can't be used for the first iteration from `t_0` to `t_0+h`, since it requir
 
 These schemes are repeatedly applied starting from `t_0` and `y_0` until the final time `t_f` is reached and the final solution vector `y_f` is obtained.
 
-## Testing:
+## Testing
 
 Unit tests were written for all functions and schemes, with different sample scenarios for the solvers, which can be found in the 'test' folder. E.g.:
 
 - `y' = -y` with `y(0) = 1`
 - `y' = sin(t)` with `y(0) = 1`
 - multidimensional vector
+
+### CMake build
+
+mkdir build
+cmake -B build -S .
+cd build 
+make
+./'name_of_executable_file'
+
+### Compiling without Cmake
+
+g++ -std=c++11 file_name.cpp -o file_name
+./'name_of_executable_file'
+
