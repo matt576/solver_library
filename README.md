@@ -56,14 +56,14 @@ Unit tests were written for all functions and schemes, with different sample sce
 
 ### CMake build
 
-mkdir build
-cmake -B build -S .
-cd build 
-make
+mkdir build \n
+cmake -B build -S . \n
+cd build \n
+make \n
 ./'name_of_executable_file'
 
 ### Compiling without Cmake
 
-g++ -std=c++11 file_name.cpp -o file_name
+g++ -std=c++11 file_name.cpp -o file_name \n
 ./'name_of_executable_file'
 
