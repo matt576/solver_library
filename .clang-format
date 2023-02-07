@@ -1,0 +1,75 @@
+# This file contains formatting settings, that can be understood by many IDEs.
+# Feel free to modify the settings. However, it is recommend to stick with these settings.
+
+Standard: c++11
+
+AccessModifierOffset: -2
+
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+AlwaysBreakAfterReturnType: All
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+
+BinPackArguments: false
+BinPackParameters: false
+
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterExternBlock: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  BeforeWhile: true
+  IndentBraces: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Custom
+BreakBeforeInheritanceComma: false
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializers: BeforeComma
+BreakStringLiterals: false
+
+ColumnLimit: 100
+
+CompactNamespaces: false
+
+ConstructorInitializerIndentWidth: 2
+
+ContinuationIndentWidth: 2
+
+Cpp11BracedListStyle: true
+
+DerivePointerAlignment: false
+
+FixNamespaceComments: true
+
+PenaltyBreakBeforeFirstCallParameter: 90
+
+PointerAlignment: Left
+
+NamespaceIndentation: All
+
+IndentWrappedFunctionNames: false
